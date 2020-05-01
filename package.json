@@ -1,0 +1,64 @@
+{
+  "name": "@arbetsmyra/semantic-release-config",
+  "version": "1.0.0",
+  "description": "Arbetsmyra's semantic-release config",
+  "main": "semantic-release-config.js",
+  "scripts": {
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "lint:fix": "npm run prettier:write",
+    "lint": "npm run prettier:check",
+    "test": "npm run lint",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbetsmyra/semantic-release-config.git"
+  },
+  "keywords": [
+    "semantic-release",
+    "semantic-release-config",
+    "shareable-semantic-release-config",
+    "arbetsmyra"
+  ],
+  "author": "Anthon <anthon.kendel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arbetsmyra/semantic-release-config/issues"
+  },
+  "homepage": "https://github.com/arbetsmyra/semantic-release-config#readme",
+  "dependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "semantic-release": "^17.0.7"
+  },
+  "devDependencies": {
+    "@arbetsmyra/commitlint-config": "^1.0.0",
+    "@arbetsmyra/prettier-config": "^1.1.0",
+    "@commitlint/cli": "^8.3.5",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+  },
+  "prettier": "@arbetsmyra/prettier-config",
+  "commitlint": {
+    "extends": [
+      "@arbetsmyra"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run lint:fix"
+    }
+  },
+  "renovate": {
+    "extends": [
+      "@arbetsmyra"
+    ]
+  },
+  "release": {
+    "extends": [
+      "./semantic-release-config.js"
+    ]
+  }
+}
