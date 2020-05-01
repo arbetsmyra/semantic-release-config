@@ -39,6 +39,16 @@ Once the `@arbetsmyra/semantic-release-config` package is installed, you can use
 }
 ```
 
+In addition to extending the `@arbetsmyra/semantic-release-config` config, semantic-release needs to be added to your scripts in the `package.json`:
+
+```json
+{
+  "scripts": {
+    "semantic-release": "semantic-release"
+  }
+}
+```
+
 For scoped packages it is recommended to use the following publish config:
 
 `package.json`:
