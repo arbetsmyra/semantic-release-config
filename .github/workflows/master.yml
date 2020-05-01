@@ -35,9 +35,9 @@ jobs:
 
       - name: Test
         run: npm test --if-present
-# TODO: Enable when running semantic-release
-#      - name: Release
-#        env:
-#          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-#          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-#        run: npm run semantic-release
+
+      - name: Release
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm run semantic-release
