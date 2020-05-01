@@ -39,6 +39,18 @@ Once the `@arbetsmyra/semantic-release-config` package is installed, you can use
 }
 ```
 
+For scoped packages it is recommended to use the following publish config:
+
+`package.json`:
+
+```json
+{
+  "publishConfig": {
+    "access": "public"
+  }
+}
+```
+
 ## Contributing
 
 If you want to contribute and make our project better, your help is very welcome.

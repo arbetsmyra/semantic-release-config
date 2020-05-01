@@ -56,6 +56,9 @@
       "@arbetsmyra"
     ]
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "release": {
     "extends": [
       "./semantic-release-config.js"
