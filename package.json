@@ -35,7 +35,7 @@
   "devDependencies": {
     "@arbetsmyra/commitlint-config": "2.0.0",
     "@arbetsmyra/prettier-config": "1.2.0",
-    "@commitlint/cli": "9.1.1",
+    "@commitlint/cli": "9.1.2",
     "husky": "4.2.5",
     "prettier": "2.0.5"
   },
