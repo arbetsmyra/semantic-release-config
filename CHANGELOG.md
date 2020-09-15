@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/arbetsmyra/semantic-release-config/compare/v1.0.5...v1.1.0) (2020-09-15)
+
+
+### Bug Fixes
+
+* **deps:** npm audit fix ([7852015](https://github.com/arbetsmyra/semantic-release-config/commit/7852015be60a9fb2c4cd4ade2882d7cbcbb94098))
+
+
+### Features
+
+* force new minor ([b33a589](https://github.com/arbetsmyra/semantic-release-config/commit/b33a589b6578feb986620332d29e9263b76afadd))
+
 ## [1.0.5](https://github.com/arbetsmyra/semantic-release-config/compare/v1.0.4...v1.0.5) (2020-06-25)
 
 
