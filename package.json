@@ -33,7 +33,7 @@
     "semantic-release": "17.1.1"
   },
   "devDependencies": {
-    "@arbetsmyra/commitlint-config": "2.0.0",
+    "@arbetsmyra/commitlint-config": "2.1.0",
     "@arbetsmyra/prettier-config": "1.2.0",
     "@commitlint/cli": "11.0.0",
     "husky": "4.3.0",
