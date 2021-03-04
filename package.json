@@ -1,6 +1,6 @@
 {
   "name": "@arbetsmyra/semantic-release-config",
-  "version": "1.1.17",
+  "version": "1.1.18",
   "description": "Arbetsmyra's semantic-release config",
   "main": "semantic-release-config.js",
   "scripts": {
