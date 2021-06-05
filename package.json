@@ -37,7 +37,7 @@
     "@arbetsmyra/prettier-config": "1.2.1",
     "@commitlint/cli": "12.1.4",
     "husky": "4.3.8",
-    "prettier": "2.3.0"
+    "prettier": "2.3.1"
   },
   "prettier": "@arbetsmyra/prettier-config",
   "commitlint": {
