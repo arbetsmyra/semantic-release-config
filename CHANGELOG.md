@@ -1,3 +1,10 @@
+## [1.1.23](https://github.com/arbetsmyra/semantic-release-config/compare/v1.1.22...v1.1.23) (2021-08-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency semantic-release to v17.4.6 ([431d579](https://github.com/arbetsmyra/semantic-release-config/commit/431d5794b33907323abc2dd6afaaec34268f9aaf))
+
 ## [1.1.22](https://github.com/arbetsmyra/semantic-release-config/compare/v1.1.21...v1.1.22) (2021-08-16)
 
 
